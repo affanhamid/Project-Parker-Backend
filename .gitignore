@@ -11,3 +11,4 @@ moodle_data
 moodle_data_vdb
 prujuai_moodle
 prujuai_dir_secret_*
+env/

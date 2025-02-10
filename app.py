@@ -1,4 +1,3 @@
-import os
 import uuid
 
 from chat_caller import query_gpt_chat

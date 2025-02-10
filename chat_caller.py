@@ -1,12 +1,9 @@
 import os
 from datetime import datetime
 
-import httpx
 from chat_utils import purge_memory, token_counter
 from dotenv import load_dotenv
 from langchain.schema import AIMessage, HumanMessage, SystemMessage
-from langchain_community.callbacks.manager import get_openai_callback
-from langchain_community.chat_models import ChatOllama
 from langchain_community.embeddings import HuggingFaceInstructEmbeddings
 
 # from langchain_community.chat_models import ChatOpenAI
